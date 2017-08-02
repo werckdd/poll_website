@@ -4,7 +4,6 @@
   "description": "",
   "main": "app-server.js",
   "scripts": {
-    "prestart": "webpack",
     "start": "node app-server.js"
   },
   "author": "",
@@ -25,6 +24,10 @@
     "react-router-dom": "^4.1.2",
     "socket.io": "^2.0.3",
     "socket.io-client": "^2.0.3",
-    "webpack": "^3.3.0"
+    "webpack": "^3.3.0",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-dev-server": "^2.6.1",
+    "webpack-hot-middleware": "^2.18.2",
+    "react-hot-loader": "^3.0.0-beta.7"
   }
 }

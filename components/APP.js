@@ -3,6 +3,7 @@ var io = require('socket.io-client');
 var ReactDOM = require('react-dom');
 
 import { Header } from '../components/parts/Header.js';
+import { Counter } from '../components/parts/Counter.js';
 
 
 export default class APP extends React.Component{
